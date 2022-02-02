@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Main() {
-  return <div className='h-screen bg-[url("../images/background.jpeg")] text-white '>
+  return <div className='h-screen bg-[url("/images/background.jpeg")] text-white '>
 	  <div className='font-serif md:h-[35rem] h-[25rem] flex justify-center items-center'>
 		 <div>
 		 <div className='text-center  lg:text-4xl sm:text-lg'>Hi! I am<span className='font-semibold'> Fatima Seemab </span></div>

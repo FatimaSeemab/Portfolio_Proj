@@ -6,7 +6,7 @@ import Skills from "../Components/Skills"
 import Programming from "../Components/Programming"
 import Goals from "../Components/Goals"
 import PersonalProjects from "../Components/PersonalProjects"
-import  Certificates  from "../Components/Certificates"
+// import  Certificates  from "../Components/Certificates"
 import Projects from"../Components/Projects"
 import Contact from "../Components/Contact"
 export default function Home() {
@@ -25,7 +25,7 @@ export default function Home() {
           <Goals />
           <PersonalProjects />
           <Projects />
-          <Certificates />
+          {/* <Certificates /> */}
           <Contact />
         </main>
       
