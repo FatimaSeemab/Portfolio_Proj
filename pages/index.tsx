@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="../styles/globals.css" rel="stylesheet" />
       </Head>
         {/* <main> */}
           <Nav />
