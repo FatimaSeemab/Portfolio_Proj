@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    './pages/**/*.tsx',
+    './pages/**/*.{js,tsx}',
     './pages/*.tsx',
     './components/**/*.tsx',
   ],
