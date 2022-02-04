@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/clone/[clone].js"],
+  "include": ["next-env.d.ts", "pages/index.tsx", "Components/*.tsx", "pages/clone/[clone].js"],
   "exclude": ["node_modules"]
 }
