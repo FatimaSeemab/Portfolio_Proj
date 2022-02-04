@@ -14,6 +14,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */}
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="../styles/globals.css" rel="stylesheet" />
