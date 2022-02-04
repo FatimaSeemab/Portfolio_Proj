@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-function Clone() {
+function clone() {
 	const router=useRouter();
 	const data=[{name:"WhatsApp",image:"/images/whatsapp.jpeg",description:"A whatsapp clone followed by a youtube tutorial of clever programmer.React is used for front end.Tailwind css for styling and Firebase is used for database and development.",src:"https://whatsapp-clone-bf8f7.web.app/"},
 	{name:"Instagram",image:"/images/instagram.png",description:"Instagram clone followed by youtube tutorial of clever programmer.React is used for front end and Redux for the state management.",src:""},
@@ -54,4 +54,4 @@ function Clone() {
   </div>;
 }
 
-export default Clone;
+export default clone;
