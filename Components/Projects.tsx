@@ -1,5 +1,6 @@
 import React from 'react';
 import Router, { useRouter } from 'next/router';
+
 function Projects() {
   const router=useRouter();
   return <div className='m-5' id="projects">
