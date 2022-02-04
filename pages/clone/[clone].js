@@ -28,7 +28,9 @@ function Clone() {
 	},[router]);
 	console.log(clonerouted);
   return <div>
-	 <Link href="/"> <h1   className='cursor-pointer m-5 text-blue-900 text-5xl font-bold'>{clonerouted.name}</h1></Link>
+	 <Link href="/">
+		 <h1   className='cursor-pointer m-5 text-blue-900 text-5xl font-bold'>{clonerouted.name}</h1>
+		</Link>
 	  	<div className='md:flex m-5 items-center'>
 		  
 			<div className=''>
