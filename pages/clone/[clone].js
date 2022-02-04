@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 function Clone() {
@@ -18,19 +19,18 @@ function Clone() {
 ]
 
 	const [clonerouted,setClonerouted]=useState({})
-	// const data=localStorage.getItem("Data");
-	// console.log(JSON.parse(data));
+
 	
 	useEffect(() => {
 	  const {clone}=router.query;
 	  if(clone)
      { setClonerouted(data.find(o=>o.name===clone))}
-	}, [router]);
+	});
 	
 	// console.log(clone);
 	console.log(clonerouted);
   return <div>
-	 <a href="/"> <h1   className='cursor-pointer m-5 text-blue-900 text-5xl font-bold'>{clonerouted.name}</h1></a>
+	 <Link href="/"> <h1   className='cursor-pointer m-5 text-blue-900 text-5xl font-bold'>{clonerouted.name}</h1></Link>
 	  	<div className='md:flex m-5 items-center'>
 		  
 			<div className=''>
