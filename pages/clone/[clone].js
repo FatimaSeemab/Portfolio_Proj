@@ -26,8 +26,7 @@ function Clone() {
 	  if(clone)
      { setClonerouted(data.find(o=>o.name===clone))}
 	});
-	
-	// console.log(clone);
+
 	console.log(clonerouted);
   return <div>
 	 <Link href="/"> <h1   className='cursor-pointer m-5 text-blue-900 text-5xl font-bold'>{clonerouted.name}</h1></Link>
