@@ -11,7 +11,8 @@ import PersonalProjects from "../Components/PersonalProjects"
 import Projects from"../Components/Projects"
 import Contact from "../Components/Contact"
 export default function Home() {
-  return (
+  return ( 
+  // <html>
     <div className="">
       <Head>
         {/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */}
@@ -35,5 +36,6 @@ export default function Home() {
         {/* </main> */}
       
     </div>
-  )
+    // </html>
+    )
 }
