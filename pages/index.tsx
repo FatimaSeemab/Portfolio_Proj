@@ -23,8 +23,10 @@ export default function Home() {
           <Skills />
           <Programming />
           <Goals />
+          {/* <section id="#projects"> */}
           <PersonalProjects />
           <Projects />
+          {/* </section> */}
           {/* <Certificates /> */}
           <Contact />
         </main>

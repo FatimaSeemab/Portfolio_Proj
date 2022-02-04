@@ -16,37 +16,31 @@ function Nav() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   
                   <a
-                    href="#"
-                    className="text-gray-300 hover:bg-black-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="#AboutMe"
+                    className="text-white hover:bg-gray-300 hover:text-blue-900  px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About Me
                   </a>
 
                   <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="#Skills"
+                    className="text-white hover:bg-gray-300 hover:text-blue-900  px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Skills
                   </a>
 
                   <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="#projects"
+                    className="text-white hover:bg-gray-300 hover:text-blue-900  px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Projects
                   </a>
 
                   <a
-                    href="#"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="#Contact"
+                    className=" hover:bg-gray-300 hover:text-blue-900  text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Certificate
-                  </a>
-                  <a
-                    href="#"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact-Info
+                    Contact Me
                   </a>
                 </div>
               </div>
@@ -55,7 +49,7 @@ function Nav() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -111,36 +105,36 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
-                  className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#AboutMe"
+                  className="hover:bg-gray-300 text-white hover:text-blue-900  block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About Me
                 </a>
 
                 <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#Skills"
+                  className="text-white hover:bg-gray-300 hover:text-blue-900 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Skills
                 </a>
 
                 <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#projects"
+                  className="text-white hover:bg-gray-300 hover:text-blue-900 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Projects
                 </a>
 
-                <a
+                {/* <a
                   href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-gray-300 hover:text-blue-900 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Certificate
-                </a>
+                </a> */}
 
                 <a
-                  href="#"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#Contact"
+                  className="text-white hover:bg-gray-300 hover:text-blue-900 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact Me
                 </a>
