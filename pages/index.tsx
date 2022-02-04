@@ -12,10 +12,10 @@ import Contact from "../Components/Contact"
 export default function Home() {
   return (
     <div className="">
-      <Head>
+      {/* <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
         <main>
           <Nav />
           <Main />
