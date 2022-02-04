@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import '../styles/globals.css'
+// import '../styles/globals.css'
 import Nav from "../Components/Nav"
 import Main from "../Components/Main"
 import AboutMe from "../Components/AboutMe"
