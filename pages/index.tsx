@@ -16,7 +16,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
-        <main>
+        {/* <main> */}
           <Nav />
           <Main />
           <div className='bg-gray-600'><AboutMe /></div>
@@ -29,7 +29,7 @@ export default function Home() {
           {/* </section> */}
           {/* <Certificates /> */}
           <Contact />
-        </main>
+        {/* </main> */}
       
     </div>
   )
