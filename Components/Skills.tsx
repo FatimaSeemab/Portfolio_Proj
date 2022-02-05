@@ -15,7 +15,7 @@ function Skills() {
 		</div>	
 		<div className='m-5 shadow-xl hover:shadow-2xl hover:shadow-gray-500  transition delay-150 hover:scale-105 bg-gray-300 text-black'>
 			<div>
-				<Image height={50} width={84} layout='responsive' src={"/images/Redux.jpeg"} alt=""/>
+				<Image height={50} width={84} layout='responsive' src={"/images/redux.jpeg"} alt=""/>
 			</div>
 			<div>
 				<p className='m-2 font-semibold text-center text-2xl '>Redux</p>
@@ -87,7 +87,7 @@ function Skills() {
 		</div>
 		<div className='m-5 shadow-xl hover:shadow-2xl hover:shadow-gray-500  transition delay-150 hover:scale-105 bg-gray-300 text-black'>
 			<div>
-				<Image height={50} width={84} layout='responsive' src={"/images/MYSQL.png"} alt=""/>
+				<Image height={50} width={84} layout='responsive' src={"/images/MySQL.png"} alt=""/>
 			</div>
 			<div>
 				<p className='m-2 font-semibold text-center text-2xl '>MYSQL</p>
